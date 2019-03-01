@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    color:black;
+    background-color:white;
+    width:80px;
+    height:40px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-right: 20px;
+}
+.confirm{
+    border: 1px solid #1e7e34;
+    margin-top:10px;
+}
+.cancel{
+    border: 1px solid #dc3545;
+}
+.confirm:hover{
+    color:white;
+    background-color:#1e7e34;
+}
+.cancel:hover{
+    color:white;
+    background-color:#dc3545;
+}
+li{
+    font-size:1.6rem;
+}
